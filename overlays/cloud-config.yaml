@@ -1,7 +1,7 @@
 apiVersion: elemental.cattle.io/v1beta1
 kind: SeedImage
 metadata:
-  name: elemental-os-seedimage-v2
+  name: elemental-os-seedimage-v3
   namespace: fleet-default
 spec:
   cloud-config:
