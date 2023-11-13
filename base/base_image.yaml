@@ -3,16 +3,11 @@ kind: SeedImage
 metadata:
   name: iso-image-reg-elemental-re01-composite
   namespace: fleet-default
-  ownerReferences:
-  - apiVersion: elemental.cattle.io/v1beta1
-    kind: MachineRegistration
-    name: elemental-re01
-    uid: b1dd273c-b094-4640-84f2-e89448525f44
 spec:
   baseImage: registry.suse.com/rancher/elemental-teal-iso/5.4:1.2.3
   cloud-config:
   cleanupAfterMinutes: 60
   registrationRef:
-    name: elemental-re01
+    name: elemental-re03
     namespace: fleet-default
   retriggerBuild: false

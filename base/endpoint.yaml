@@ -1,0 +1,24 @@
+apiVersion: elemental.cattle.io/v1beta1
+kind: MachineRegistration
+metadata:
+  name: elemental-re03
+  namespace: fleet-default
+spec:
+  config:
+    cloud-config:
+      users:
+      - name: root
+        passwd: linux
+    elemental:
+      install:
+        debug: true
+        device: /dev/sda
+        poweroff: true
+        reboot: true
+      registration:
+        auth: tpm
+        emulate-tpm: true
+      reset:
+        reboot: true
+        reset-oem: true
+        reset-persistent: true
