@@ -1,4 +1,4 @@
 
 - op: replace
   path: /metadata/name
-  value: elemental-os-seedimage-v3
+  value: elemental-os-seedimage-v4
