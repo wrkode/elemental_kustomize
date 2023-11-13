@@ -1,7 +1,7 @@
 apiVersion: elemental.cattle.io/v1beta1
 kind: MachineRegistration
 metadata:
-  name: elemental-re03
+  name: your-registration-endpoint
   namespace: fleet-default
 spec:
   config:
