@@ -1,7 +1,7 @@
 apiVersion: elemental.cattle.io/v1beta1
 kind: SeedImage
 metadata:
-  name: your-seedImage-name
+  name: deib-test
   namespace: fleet-default
 spec:
   cloud-config:
