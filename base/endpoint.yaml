@@ -1,7 +1,7 @@
 apiVersion: elemental.cattle.io/v1beta1
 kind: MachineRegistration
 metadata:
-  name: your-registration-endpoint
+  name: https://rancher.lab.k8/elemental/registration/tsshvqjbqqmrt4rcvzhnqxj9l5bglvxns725dhhdtlwhw6drf229rz
   namespace: fleet-default
 spec:
   config:
