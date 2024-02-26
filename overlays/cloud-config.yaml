@@ -6,11 +6,6 @@ metadata:
 spec:
   cloud-config:
     write_files:
-        path: /etc/testfile
-        permissions: 0777
-        content:
-        - |
-           this is a testfile
         path: /usr/local/cloud-config/hook.yaml
         permissions: 0777
         content:
