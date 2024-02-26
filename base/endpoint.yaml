@@ -8,7 +8,7 @@ spec:
     cloud-config:
       users:
       - name: root
-        passwd: linux
+        passwd: strong123password
     elemental:
       install:
         debug: true
