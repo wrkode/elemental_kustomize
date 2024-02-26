@@ -8,6 +8,6 @@ spec:
   cloud-config:
   cleanupAfterMinutes: 60
   registrationRef:
-    name: your-registration-endpoint
+    name: d-endpoint
     namespace: fleet-default
   retriggerBuild: false
